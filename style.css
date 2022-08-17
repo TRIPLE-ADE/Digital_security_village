@@ -289,6 +289,7 @@ ul li a{
     margin:auto;
     padding-top:450px;
     padding-bottom:200px;
+    position:relative;
 
 }
 .location, .time{
@@ -303,13 +304,16 @@ ul li a{
 .time{
     height:200px;
     margin-left:30px;
-    position:relative;
+
+    z-index:100;
+   
     
 }
 .logo-design{
+    
     position:absolute;
-    top:5px;
-    left:80px;
+    top:460px;
+    right:-60px;
 }
 .section4 img{
     float:right;
