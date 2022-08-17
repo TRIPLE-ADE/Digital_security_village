@@ -86,7 +86,8 @@ ul li a{
 }
 .section2{
     display:flex;
-    justify-content:space-between;
+    justify-content:space-around;
+    flex-flow:row wrap;
     padding-top:200px;
     padding-bottom:200px;
     width:90%;
@@ -94,23 +95,25 @@ ul li a{
     height:auto;
 }
 .section2-images{
-    position:relative;
     width:40%;
-
+    position:relative;
 }
-
 .image1{
     position:absolute;
-    top:-30px;
-    left:300px;
 }
 .image2{
+    position:absolute;
+    top:-5%;
+    left:300px;
+}
+.image3{
     position:absolute;
     top:220px;
     left:280px;
 }
 .section2-content{
-    width:40%;
+    width:45%;
+    min-width:40%;
     line-height:4;
 }
 .small-content{
@@ -186,10 +189,10 @@ ul li a{
     display:flex;
     justify-content:space-between;
     align-items: center;
-    padding: 70px 0 100px 0;
+    padding: 70px 0 200px 0;
 }
 .skill-content{
-    width: 60%;
+    width: 63%;
     z-index: 1000;
 }
 
@@ -215,10 +218,115 @@ ul li a{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 90vh;
+    height:auto;
     width: 100%;   
 }
+.container{
+    width:75%;
+    margin:auto;
+    position: relative;
+}
+.row{
+    position: absolute;
+    top:-70px;
+    display:flex;
+    justify-content: space-between  ;
+    width:100%;
 
+}
+.card{
+    text-align:center;
+    background: #F7F7F7;
+    box-shadow: 0px 7.98038px 3.99019px rgba(0, 0, 0, 0.25);
+    max-width:32.4%;
+    padding:20px 0;
+    height:auto;
+}
+.card-image1{
+    margin:auto;
+    padding:20px;
+    text-align:center;
+    width:95px;
+    background: rgba(0, 0, 255, 0.67);
+    border-radius:50%;
+}
+.card-image2{
+    margin:auto;
+    padding:20px;
+    text-align:center;
+    width:95px;
+    background: rgba(255, 0, 0, 0.51);
+    border-radius:50%;
+}
+.card-image3{
+    margin:auto;
+    padding:20px;
+    text-align:center;
+    width:95px;
+    background: #FF9500;
+    border-radius:50%;
+}
+
+.card-content{
+    width:90%;
+    margin:auto;
+}
+.card-content p:first-child{
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 120%;
+    margin:30px 0;
+}
+.card-content p:nth-child(2){
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+}
+.section4{
+    display:flex;
+    width:80%;
+    margin:auto;
+    padding-top:450px;
+    padding-bottom:200px;
+
+}
+.location, .time{
+    padding:10px;
+    width:30%;
+    background: #F2D9D9;
+}
+.location{
+    margin-top:20px;
+     height:230px;
+}
+.time{
+    height:200px;
+    margin-left:30px;
+    position:relative;
+    
+}
+.logo-design{
+    position:absolute;
+    top:5px;
+    left:80px;
+}
+.section4 img{
+    float:right;
+}
+.section4-content{
+       margin-top: 40px
+}
+.section4-content p{
+    font-weight: 700;
+    font-size: 4rem;
+    line-height:110%; 
+    background: linear-gradient(253.71deg, #FFFF00 -7.18%, rgba(255, 0, 0, 0.99) 44.56%, #0000FF 101.99%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* text-fill-color: transparent; */
+}
 .partners-page{
     width: 100%;
     padding: 100px 0;
@@ -244,8 +352,9 @@ ul li a{
 
 }
 .partners-logo{
+    margin-top:30px;
     display:flex;
-    justify-content:space-between;
+    justify-content:space-around;
     align-items: center;
 }
 
@@ -264,7 +373,7 @@ footer{
     padding: 80px 0;
 
 }
-.subcribe-form{
+.subscribe-form{
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -294,23 +403,25 @@ form button{
     color: #FFFFFF;
 
 }
-.subcribe-form p:first-child{
+.subscribe-form p:first-child{
     font-weight: 400;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     margin-bottom: 20px;
    
 }
-.subcribe-form p:nth-child(4){
-    font-weight: 600;
+.subscribe-form p:nth-child(4){
+   
     font-size: 0.9rem;
+    font-weight: 600;
     line-height: 193%;
     text-align: center;
     color: #FFFFFF;
     margin-top: 20px;
    
 }
-.subcribe-form p:nth-child(5){
+.subscribe-form p:nth-child(5){
    font-size: 0.9rem;
+   font-weight: 600;
     line-height:50px;
     text-align: center;
                                                                                                                                                                                                                                                                                                                                                              
@@ -328,7 +439,7 @@ form button{
 }
 .social-media{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     text-align: center;
     width: 20%;
@@ -340,7 +451,6 @@ form button{
     border: 3px solid rgba(0, 0, 255, 0.9);
     border-radius: 60%;
     padding: 15px;
-    margin-right: 20px;
 }
 .twitter{
     opacity: 0.7;
