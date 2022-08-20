@@ -329,7 +329,6 @@ ul li a{
     font-weight: 400;
     font-size: 1rem;
     line-height: 36px;
-    text-align: center;
     color: rgba(0, 0, 0, 0.65);
 }
 /* location page styling end */
@@ -612,7 +611,7 @@ form button{
 }
 /* contact html file styling end */
 
-
+/* max width 1050px styling start */
 @media (max-width:1050px) {
     nav{
         width: 94%;
@@ -663,12 +662,11 @@ form button{
         font-size: 0.9rem;
     }
     /* location page styling end */
-
 }
+/* max width 1050px styling end */
 
 
-
-
+/* max width 900px styling start */
 @media (max-width:900px) {
     /* nav styling start  */
     nav{
@@ -861,6 +859,9 @@ form button{
     }
     /* contact html file styling end */
 }
+/* max width 900px styling end */
+
+/* max width 625px styling start */
 @media (max-width:625px) {
     nav{
         width:90%;
@@ -982,5 +983,12 @@ form button{
     font-size: 0.9rem;
     }
     /* footer  styling end */
+}
+/* max width 625px styling end */
+
+/* max width 400px styling start */
+@media (max-width:400px) {
+
 
 }
+/* max width 400px styling  end */
