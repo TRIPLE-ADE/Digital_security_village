@@ -20,7 +20,7 @@ nav{
     display:flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 30px;
+    padding-top: 10px;
 }
 #nav-links ul{
     display: flex;
