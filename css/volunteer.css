@@ -90,9 +90,30 @@
     .volunteer-image img{
         width: 180px;
     }
+     .volunteer-image .volunteer-name{
+        font-size: 1rem !important;
+    }
+    .volunteer-image .volunteer-post{
+        font-size: 0.8rem !important;
+    }
+    .volunteer-content p{
+        font-size: 0.9rem !important;
+    }
+
     /* volunteers html file styling end */
 }
 /* max width 900px styling end */
+
+/* max width 625px styling start */
+@media (max-width:625px) {
+    #volunteer-section1 p:first-child{
+        font-size:3.2rem;
+    }
+     .volunteer-image{
+         margin:15px;
+    }
+}
+/* max width 625px styling end */
 
 
 /* volunteers html file styling end */

@@ -84,7 +84,7 @@
 
 /* max width 900px styling start */
 @media (max-width:900px) {
-    #facilitator-section1 p{
+    #facilitator-section1 p:first-child{
         font-size:4.5rem;
     }
     .main-facilitator{
@@ -95,6 +95,28 @@
     }
 }
 /* max width 900px styling end */
+
+
+/* max width 625px styling start */
+@media (max-width:625px) {
+    #facilitator-section1 p:first-child{
+        font-size:3.2rem;
+    }
+    .facilitator-image .facilitator-name{
+        font-size: 1rem !important;
+    }
+    .facilitator-image .facilitator-post{
+        font-size: 0.8rem !important;
+    }
+    .facilitator-content p{
+        font-size: 0.9rem !important;
+    }
+    #facilitator-heading{
+        font-weight: 700;
+        font-size: 1.8rem !important;
+    }
+    }
+/* max width 625px styling end */
 
 
 

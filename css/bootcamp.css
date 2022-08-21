@@ -36,4 +36,12 @@
 }
 /* max width 900px styling end */
 
+/* max width 625px styling start */
+@media (max-width:625px) {
+    #bootcamp-section1 p:first-child{
+        font-size:3.2rem;
+    }
+}
+/* max width 625px styling end */
+
 /* di bootcamp html file styling end */

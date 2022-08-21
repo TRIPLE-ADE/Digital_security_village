@@ -186,4 +186,36 @@
 }
 /* max width 900px styling end */
 
+/* max width 625px styling start */
+@media (max-width:625px) {
+    #contact-section1 p:first-child{
+        font-size:3.2rem;
+    }
+       .contact{
+        width: 90%!important;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .contact-details{
+        flex-direction: column;
+    }
+    #contact-form{
+        width: 90% !important;
+        margin: auto !important;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .contact form{
+        width: 100%;
+    }
+    .contact form input, .contact textarea{
+        width: 100%;
+    }
+ 
+
+ 
+}
+/* max width 625px styling end */
+
+
 /* contact html file styling end */

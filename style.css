@@ -691,10 +691,11 @@ form{
     #logo a img{
        width:120px;
     }
-    /* #nav-links{
+    #nav-links{
+        display: none;
         position: fixed;
         height:100vh;
-    } */
+    }
     .hero-content{
         width:90%;
     }
@@ -781,7 +782,7 @@ form{
 
     /* partners page styling start */
     .partner-btn{
-        width: 30%;
+        width: 130px;
     }
     .partner-btn p{
     padding:0 20px;
@@ -796,6 +797,9 @@ form{
 
     /* footer  styling start */
     .subscribe-form{
+        width: 100%;
+    }
+    form{
         width: 100%;
     }
     form input::placeholder{
