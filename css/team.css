@@ -20,7 +20,7 @@
     width: 100%;
     height: 100%;
 }
-#team-section1 p{
+#team-section1 p:first-child{
     font-size:6rem;
     font-weight:700;
     text-align: center;
@@ -72,13 +72,13 @@
 .team-image .team-name{
     margin-top: 10px;
     font-weight: 700;
-    font-size: 1.1rem;
+    font-size: 1.1rem !important;
     line-height: 21px;
     color: #0000FF;
 }
 .team-image .team-post{
     font-weight: 400;
-    font-size: 0.8rem;
+    font-size: 0.8rem !important;
     line-height: 22px;
     color: #FF0000;
 }
@@ -86,7 +86,7 @@
     width:50%;
 }
 .team-content p{
-    font-size: 0.9rem;
+    font-size: 0.9em;
     margin-top: 20px;
     font-weight: 400;
     line-height: 30px;
@@ -109,7 +109,7 @@
 @media (max-width:900px) {
 
     /* team html file styling start */
-    #team-section1 p{
+    #team-section1 p:first-child{
         font-size:4.5rem;
     }
     .team-image img{
