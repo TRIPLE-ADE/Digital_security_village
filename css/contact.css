@@ -210,12 +210,16 @@
     }
     .contact form input, .contact textarea{
         width: 100%;
-    }
- 
-
- 
+    } 
 }
 /* max width 625px styling end */
+
+@media (max-width:400px) {
+     #contact-section1 p:first-child{
+        font-size:2.2rem;
+    }
+}
+/* max width 400px styling  end */
 
 
 /* contact html file styling end */

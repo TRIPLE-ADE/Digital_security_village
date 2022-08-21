@@ -157,4 +157,13 @@
 }
 /* max width 625px styling end */
 
+/* max width 400px styling start */
+@media (max-width:400px) {
+     #team-section1 p:first-child{
+        font-size:2.2rem;
+    }
+}
+/* max width 400px styling  end */
+
+
 /* team html file styling end */
