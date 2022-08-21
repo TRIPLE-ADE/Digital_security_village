@@ -694,8 +694,9 @@ form{
     #nav-links{
         display: none;
         position: fixed;
-        height:100vh;
     }
+
+      /* hero page styling start */
     .hero-content{
         width:90%;
     }
@@ -814,8 +815,120 @@ form{
 
 /* max width 400px styling start */
 @media (max-width:400px) {
+    #logo a img{
+       width:40%;
+    }
 
+    /* hero page styling start */
+    .hero-content p:nth-child(2){
+        font-size:2rem;
+        line-height: 130%;
+    }
+    /* hero page styling end */
 
+      /* register page styling start */ 
+    
+    .section2{
+        padding:100px 0;
+    }
+    .small-content p{
+        font-size:0.7rem;
+    }
+    .section2-content p:nth-child(2){
+        font-size:2rem;
+        line-height: 130%;
+    }
+    .section2-content p:nth-child(3){
+        font-size:0.88rem;
+    }
+    .section2-content p:nth-child(4){
+        font-size:0.88rem;
+    }
+    .section2-images{
+        margin-right:130px;
+        max-width:40%;
+    }
+    .image2{
+        margin-left:150px;
+    }
+    .image3{
+        top:110px;
+        left:140px;
+    }
+    .image1 img{
+        width:220px;
+    } 
+   .image2 img{
+        width:70px
+    }
+   .image3 img{
+        width:105px;
+    }
+    .register-btn{
+        width:100px;
+    }
+    .register-btn a{
+        font-size:0.9rem; 
+    }
+    
+    /* register page styling end */
+
+    /* skills page styling start */
+    .section3{
+       flex-direction: column;
+       padding: 70px 0 100px 0;
+    }
+    .skills-content{
+        width: 100%;
+    }
+    .skills-content p:first-child{
+        font-size:2rem;
+        margin-bottom:10px;
+        line-height: 130%;
+    }
+    .skills-content p:nth-child(2){
+        font-size: 0.8rem;
+        line-height: 200%;
+         width: 100%;
+    }
+    .skills-image{
+        margin-top: 30px;
+    }
+    .skills-image img{
+        width:150px;
+    }
+    /* skills page styling end */
+
+    /* location page styling start */
+    .section4{
+        width:80%;
+    }
+    .section4-content{
+       margin-top: 700px;
+    }
+    .section4-content p{
+        font-size: 2rem;
+    }
+    .location, .time{
+        width:60%;
+    }
+    .logo-design{
+        top:1570px;
+        right:-0px;
+    }
+    .heading, .text{
+        line-height: 200%;
+    }
+    .info p{
+        line-height:30px;
+    }
+    /* location page styling end */
+
+    /* footer  styling start */
+    .subscribe-form img{
+        width: 40%;
+    }
+    /* footer  styling end */
 }
 /* max width 400px styling  end */
 
