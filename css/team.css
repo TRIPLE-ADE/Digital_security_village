@@ -72,13 +72,13 @@
 .team-image .team-name{
     margin-top: 10px;
     font-weight: 700;
-    font-size: 1.1rem !important;
+    font-size: 18px !important;
     line-height: 21px;
     color: #0000FF;
 }
 .team-image .team-post{
     font-weight: 400;
-    font-size: 0.8rem !important;
+    font-size: 13px !important;
     line-height: 22px;
     color: #FF0000;
 }
@@ -86,7 +86,7 @@
     width:50%;
 }
 .team-content p{
-    font-size: 0.9em;
+    font-size: 15px;
     margin-top: 20px;
     font-weight: 400;
     line-height: 30px;
