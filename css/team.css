@@ -69,14 +69,14 @@
 .team-image img{
     mix-blend-mode: darken;
 }
-.team-image p:nth-child(2){
+.team-image .team-name{
     margin-top: 10px;
     font-weight: 700;
     font-size: 1.1rem;
     line-height: 21px;
     color: #0000FF;
 }
-.team-image p:nth-child(3){
+.team-image .team-post{
     font-weight: 400;
     font-size: 0.8rem;
     line-height: 22px;
