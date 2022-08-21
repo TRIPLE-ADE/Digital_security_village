@@ -51,7 +51,7 @@
 }
 #team-card2{
     align-items: center;
-    /* flex-direction: row-reverse; */
+    flex-direction: row-reverse;
     
 }
 #team-card2 .team-image{
