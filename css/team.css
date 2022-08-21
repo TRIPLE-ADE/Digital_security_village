@@ -1,0 +1,124 @@
+/* team html file styling start */
+
+#team-section1{
+     display:flex;
+    justify-content:center;
+    align-items:center;
+    position: relative;
+    background-image: url(../images/hero-image5.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+#team-section1::before{
+    content: '';
+    position: absolute;
+    background-color:rgba(0, 0, 255, 0.67);
+    width: 100%;
+    height: 100%;
+}
+#team-section1 p{
+    font-size:6rem;
+    font-weight:700;
+    text-align: center;
+}
+.team-section2{
+    background-color:  rgba(167, 0, 88, 0.13);
+}
+.main-team{
+    display:flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.main-team .partner-btn {
+    margin-bottom: 50px;
+}
+.team-card{
+    display:flex;
+    width: 100%;
+    justify-content:center;
+    margin-top: 30px;
+}
+.team-line{
+    border-top: 2px solid #0000FF;
+    margin: 30px 0;
+}
+#team-card2{
+    align-items: center;
+    flex-direction: row-reverse;
+    
+}
+#team-card2 .team-image{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: end;
+    margin-right: 0;
+    margin-left: 50px;
+}
+.team-image{
+    margin-right: 50px;
+    text-align: center;
+}
+.team-image img{
+    mix-blend-mode: darken;
+}
+.team-image p:nth-child(2){
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    line-height: 21px;
+    color: #0000FF;
+}
+.team-image p:nth-child(3){
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 22px;
+    color: #FF0000;
+}
+.team-content{
+    width:50%;
+}
+.team-content p{
+    font-size: 0.9rem;
+    margin-top: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #000000;
+}
+
+
+/* max width 1050px styling start */
+@media (max-width:1050px) {
+
+    /* team html file styling start */
+        .main-team{
+            width: 90%;
+        }
+    /* team html file styling start */
+}
+/* max width 1050px styling end */
+
+/* max width 900px styling start */
+@media (max-width:900px) {
+
+    /* team html file styling start */
+    #team-section1 p{
+        font-size:4.5rem;
+    }
+    .team-image img{
+        width: 200px;
+    }
+    .team-content{
+        width:70%;
+    }
+    /* team html file styling end */
+}
+/* max width 900px styling end */
+/* team html file styling end */

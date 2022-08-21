@@ -1,4 +1,3 @@
-
 /* default styling start */
 *{  
     font-family: 'Poppins', sans-serif;
@@ -462,409 +461,6 @@ form{
 }
 /* footer  styling end */
 
-/* default styling end */
-
-
-
-/* di bootcamp html file styling start */
-
-#bootcamp-section1{
-     display:flex;
-    justify-content:center;
-    align-items:center;
-    position: relative;
-    background-image: url(./images/hero-image2.jpg);
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    width: 100%;
-}
-#bootcamp-section1::before{
-    content: '';
-    position: absolute;
-    background-color: rgba(0, 0, 255, 0.67);
-    width: 100%;
-    height: 100%;
-}
-#bootcamp-section1 p{
-    font-size:6rem;
-    font-weight:700;
-    text-align: center;
-}
-/* di bootcamp html file styling end */
-
-/* facilitators html file styling start */
-
-#facilitator-section1{
-     display:flex;
-    justify-content:center;
-    align-items:center;
-    position: relative;
-    background-image: url(./images/hero-image3.jpg);
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    width: 100%;
-}
-#facilitator-section1::before{
-    content: '';
-    position: absolute;
-    background-color: rgba(0, 0, 255, 0.67);
-    width: 100%;
-    height: 100%;
-}
-#facilitator-section1 p{
-    font-size:6rem;
-    font-weight:700;
-    text-align: center;
-}
-.facilitator-section2{
-    background-color: rgba(167, 0, 88, 0.13);
-}
-.main-facilitator{
-    width: 80%;
-    margin: auto;
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-.main-facilitator .partner-btn {
-    margin-bottom: 50px;
-}
-#facilitator-heading{
-    font-weight: 700;
-    font-size: 2.2rem;
-    line-height: 138% ;
-    text-align: center;
-    background: linear-gradient(253.58deg, #FFFF00 -25.18%, rgba(255, 0, 0, 0.99) 35.09%, #0000FF 101.99%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-}
-.facilitators-card {
-    display:flex;
-    justify-content:center;
-    flex-flow: row wrap;
-}
-.facilitator-image{
-    margin:30px 15px;
-}
-.facilitator-image img{
-    mix-blend-mode: darken;
-}
-.facilitator-image p:nth-child(2){
-    margin-top: 10px;
-    font-weight: 700;
-    font-size: 1.1rem;
-    line-height: 21px;
-    color: #0000FF;
-    text-align: center;
-}
-.facilitator-image p:nth-child(3){
-    font-weight: 400;
-    font-size: 0.8rem;
-    line-height: 22px;
-    color: #FF0000;
-    text-align: center;
-}
-
-/* facilitators html file styling end */
-
-/* volunteers html file styling start */
-
-#volunteer-section1{
-     display:flex;
-    justify-content:center;
-    align-items:center;
-    position: relative;
-    background-image: url(./images/hero-image4.jpg);
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    width: 100%;
-}
-#volunteer-section1::before{
-    content: '';
-    position: absolute;
-    background-color: rgba(0, 0, 255, 0.67);
-    width: 100%;
-    height: 100%;
-}
-#volunteer-section1 p{
-    font-size:6rem;
-    font-weight:700;
-    text-align: center;
-}
-.volunteer-section2{
-    background-color: rgba(167, 0, 88, 0.13);
-}
-.main-volunteer{
-    width: 75%;
-    margin: auto;
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-.main-volunteer .partner-btn {
-    margin-bottom: 50px;
-}
-.volunteers-card {
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    flex-flow: row wrap;
-}
-.volunteer-image{
-    margin:30px;
-}
-.volunteer-image img{
-    mix-blend-mode: darken;
-}
-.volunteer-image p:nth-child(2){
-    margin-top: 10px;
-    font-weight: 700;
-    font-size: 1.1rem;
-    line-height: 21px;
-    color: #0000FF;
-    text-align: center;
-}
-.volunteer-image p:nth-child(3){
-    font-weight: 400;
-    font-size: 0.8rem;
-    line-height: 22px;
-    color: #FF0000;
-    text-align: center;
-}
-
-/* volunteers html file styling end */
-
-/* team html file styling start */
-
-#team-section1{
-     display:flex;
-    justify-content:center;
-    align-items:center;
-    position: relative;
-    background-image: url(./images/hero-image5.jpg);
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    width: 100%;
-}
-#team-section1::before{
-    content: '';
-    position: absolute;
-    background-color:rgba(0, 0, 255, 0.67);
-    width: 100%;
-    height: 100%;
-}
-#team-section1 p{
-    font-size:6rem;
-    font-weight:700;
-    text-align: center;
-}
-.team-section2{
-    background-color:  rgba(167, 0, 88, 0.13);
-}
-.main-team{
-    display:flex;
-    flex-direction: column;
-    width: 80%;
-    margin: auto;
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-.main-team .partner-btn {
-    margin-bottom: 50px;
-}
-.team-card{
-    display:flex;
-    width: 100%;
-    justify-content:center;
-    margin-top: 30px;
-}
-.team-line{
-    border-top: 2px solid #0000FF;
-    margin: 30px 0;
-}
-#team-card2{
-    align-items: center;
-    flex-direction: row-reverse;
-    
-}
-#team-card2 .team-image{
-    display:flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: end;
-    margin-right: 0;
-    margin-left: 50px;
-}
-.team-image{
-    /* width: 30%; */
-    margin-right: 50px;
-    text-align: center;
-}
-.team-image img{
-    mix-blend-mode: darken;
-}
-.team-image p:nth-child(2){
-    margin-top: 10px;
-    font-weight: 700;
-    font-size: 1.1rem;
-    line-height: 21px;
-    color: #0000FF;
-}
-.team-image p:nth-child(3){
-    font-weight: 400;
-    font-size: 0.8rem;
-    line-height: 22px;
-    color: #FF0000;
-}
-.team-content{
-    width:50%;
-}
-.team-content p{
-    font-size: 0.9rem;
-    margin-top: 20px;
-    font-weight: 400;
-    line-height: 30px;
-    color: #000000;
-}
-/* team html file styling end */
-
-/* contact html file styling start */
-#contact-section1{
-     display:flex;
-    justify-content:center;
-    align-items:center;
-    position: relative;
-    background-image: url(./images/hero-image6.jpg);
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    width: 100%;
-}
-#contact-section1::before{
-    content: '';
-    position: absolute;
-    background-color: rgba(0, 0, 255, 0.67);
-    width: 100%;
-    height: 100%;
-}
-#contact-section1 p{
-    font-size:6rem;
-    font-weight:700;
-    text-align: center;
-}
-.contact-section2{
-    background-color:  rgba(167, 0, 88, 0.13);
-}
-.main-contact{
-    display:flex;
-    flex-direction: column;
-    width: 80%;
-    margin: auto;
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-.main-contact .partner-btn {
-    margin-bottom: 50px;
-}
-.contact-details{
-    display:flex;
-    justify-content: space-between;
-}
-.contact{
-    width: 45%;
-    margin: 20px;
-}
-.contact p:first-child{
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 200%;
-    letter-spacing: 0.1em;
-    color: #0000FF;
-    text-transform: uppercase;
-}
-.contact p:nth-child(2){
-    font-weight: 700;
-    font-size: 2.5rem;
-    line-height: 100%;
-    color: #000000;
-    margin-bottom: 20px;
-}
-#phone-text p:first-child, #email-text p:first-child{
-    font-weight: 700;
-    font-size:1.5rem;
-    line-height: 125%;
-    color: #000000;
-}
-.contact form input, .contact textarea{
-    width: 100%;
-    outline: none;
-    font-weight: 400;
-    font-size:1rem;
-    line-height: 30px;
-    letter-spacing: 0.05em;
-    border:none;
-    padding: 15px;
-    background: rgba(217, 217, 217, 0.01);
-}
-.message-input textarea{
-    max-width: 100%;
-}
-.name-input, .email-input, .message-input{
-    background: rgba(217, 217, 217, 0.01);
-    border: 2px solid rgba(0, 0, 255, 0.6);
-    margin: 10px 0;
-}
-.contact form button{
-    background: linear-gradient(264.62deg, #FFFF00 -22.29%, #FF0000 29.94%, #0000FF 100%);
-    border-radius: 10px;
-    width: 40%;
-    font-weight: 400;
-    font-size: 1.4rem;
-    line-height: 139%;
-    color: #FFFFFF;
-    outline: none;
-    padding: 10px;
-    margin-top: 25px;
-    border: none;
-}
-.phone, .email{
-    display:flex;
-    margin-top: 20px;
-}
-#phone-text p:nth-child(2), #email-text p:nth-child(2){
-    font-weight: 600;
-    font-size: 0.9rem;
-    line-height: 125%;
-    color: #000000;
-}
-#email-image{
-    background: #0000FF;
-    width: 70px;
-    margin-right: 10px ;
-}
-#phone-image{
-    width: 70px;
-    background: rgba(255, 0, 0, 0.8);
-    margin-right: 10px;
-}
-#email-image img, #phone-image img{
-    mix-blend-mode: darken;
-}
-
-/* contact html file styling end */
 
 /* max width 1050px styling start */
 @media (max-width:1050px) {
@@ -1084,35 +680,6 @@ form{
         width: 80%;
     }
     /* footer  styling end */
-
-    /* di bootcamp html file styling start */
-    #bootcamp-section1 p{
-        font-size:4.5rem;
-    }
-    /* di bootcamp html file styling end */
-
-    /* facilitators html file styling start */
-    #facilitator-section1 p{
-        font-size:4.5rem;
-    }
-    /* facilitators html file styling end */
-    /* volunteers html file styling start */
-    #volunteer-section1 p{
-        font-size:4.5rem;
-    }
-    /* volunteers html file styling end */
-
-    /* team html file styling start */
-    #team-section1 p{
-        font-size:4.5rem;
-    }
-    /* team html file styling end */
-
-    /* contact html file styling start */
-    #contact-section1 p{
-        font-size:4.5rem;
-    }
-    /* contact html file styling end */
 }
 /* max width 900px styling end */
 
@@ -1124,10 +691,10 @@ form{
     #logo a img{
        width:120px;
     }
-    #nav-links{
+    /* #nav-links{
         position: fixed;
         height:100vh;
-    }
+    } */
     .hero-content{
         width:90%;
     }
@@ -1136,7 +703,7 @@ form{
     }
     .hero-content p:nth-child(2){
         font-size:3.2rem;
-         line-height: 120%;
+        line-height: 120%;
     }
     /* hero page styling end */
 
@@ -1146,9 +713,9 @@ form{
         margin-right:0;
     }
     .section2-content{
-    width:90%;
-    min-width:40%;
-    line-height:4;
+        width:90%;
+        min-width:40%;
+        line-height:4;
     }
     .small-content p{
     font-size:0.8rem;
@@ -1247,3 +814,5 @@ form{
 
 }
 /* max width 400px styling  end */
+
+/* default styling end */

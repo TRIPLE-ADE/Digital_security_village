@@ -1,0 +1,98 @@
+/* volunteers html file styling start */
+
+#volunteer-section1{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position: relative;
+    background-image: url(../images/hero-image4.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+#volunteer-section1::before{
+    content: '';
+    position: absolute;
+    background-color: rgba(0, 0, 255, 0.67);
+    width: 100%;
+    height: 100%;
+}
+#volunteer-section1 p{
+    font-size:6rem;
+    font-weight:700;
+    text-align: center;
+}
+.volunteer-section2{
+    background-color: rgba(167, 0, 88, 0.13);
+}
+.main-volunteer{
+    width: 75%;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.main-volunteer .partner-btn {
+    margin-bottom: 50px;
+}
+.volunteers-card {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-flow: row wrap;
+}
+.volunteer-image{
+    margin:30px;
+}
+.volunteer-image img{
+    mix-blend-mode: darken;
+}
+.volunteer-image p:nth-child(2){
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    line-height: 21px;
+    color: #0000FF;
+    text-align: center;
+}
+.volunteer-image p:nth-child(3){
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 22px;
+    color: #FF0000;
+    text-align: center;
+}
+
+/* max width 1050px styling start */
+@media (max-width:1050px) {
+    /* volunteer html file styling start */
+        .main-volunteer{
+            width: 90%;
+        } 
+    /* volunteer html file styling start */
+}
+/* max width 1050px styling end */
+
+/* max width 900px styling start */
+@media (max-width:900px) {
+    /* volunteers html file styling start */
+    #volunteer-section1 p{
+        font-size:4.5rem;
+    }
+    .main-volunteer{
+        width: 95%;
+    }
+    .volunteer-image{
+           margin:25px;
+    }
+    .volunteer-image img{
+        width: 180px;
+    }
+    /* volunteers html file styling end */
+}
+/* max width 900px styling end */
+
+
+/* volunteers html file styling end */
