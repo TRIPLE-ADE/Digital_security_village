@@ -760,7 +760,7 @@ form{
         margin: auto;
     }
     .logo-design{
-        top:1350px;
+        top:1380px;
         right:10px;
     }
     .location img, .time img{
@@ -773,6 +773,9 @@ form{
     .time{
         margin-top:30px;
         height:auto;
+    }
+    .heading, .text{
+        line-height: 200%;
     }
     .heading{
         padding-top:70px;
@@ -913,9 +916,10 @@ form{
     }
     .location, .time{
         width:60%;
+        height: 240px;
     }
     .logo-design{
-        top:1570px;
+        top:1610px;
         right:-0px;
     }
     .heading, .text{
@@ -924,6 +928,12 @@ form{
     .info p{
         line-height:30px;
     }
+    .heading{
+        font-size: 1rem;
+    }
+    .text{
+        font-size: 0.8rem;
+    } 
     /* location page styling end */
 
     /* footer  styling start */
