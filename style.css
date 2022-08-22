@@ -338,7 +338,7 @@ ul li a{
     padding: 100px 0;
 }
 .section5{
-    width: 80%;
+    width: 90%;
     margin: auto;
 }
 .partner-btn{
@@ -358,8 +358,10 @@ ul li a{
 .partners-logo{
     margin-top:30px;
     display:flex;
+    flex-flow: row wrap;
     justify-content:space-around;
     align-items: center;
+
 }
 /* partners page styling end */
 
