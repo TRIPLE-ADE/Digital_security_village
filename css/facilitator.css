@@ -54,8 +54,22 @@
 }
 .facilitator-image{
     margin:30px 15px;
+    position: relative;
 }
-.facilitator-image img{
+.facilitator-image a{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    position: absolute;
+    padding: 10px;
+    width:40px ;
+    background-color:#0000FF;
+    z-index: 1000;
+    top:215px;
+    right: 0;
+
+}
+.facilitator-image #facilitator-picture{
     mix-blend-mode: darken;
 }
 .facilitator-image .facilitator-name{
@@ -90,7 +104,12 @@
     .main-facilitator{
         width: 95%;
     }
-    .facilitator-image img{
+    .facilitator-image a{
+        padding: 5px;
+        width:30px ;
+        top:176px;
+    }
+    .facilitator-image #facilitator-picture{
         width: 180px;
     }
 }
