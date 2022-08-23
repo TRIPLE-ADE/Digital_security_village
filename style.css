@@ -700,11 +700,7 @@ form{
 /* max width 625px styling start */
 @media (max-width:625px) {
     header{
-        /* background-color: #262626; */
-        /* background-color: #c9a4a4; */
         box-shadow: 0px 7.98038px 3.99019px rgba(0, 0, 0, 0.25);
-       /
-        position: fixed;
         z-index:4000;
     }
     nav{
@@ -722,7 +718,7 @@ form{
         background-color: #f7f7f7;
         position: fixed;
         top: 70px;
-       right: -100%;
+        right: -100%;
         width: 100%;
         height: 100%;
         transition: 0.3s;
@@ -738,7 +734,7 @@ form{
     margin:20px 0;
     }
     .nav-link{
-        color: #000000!important;
+        color: #262626!important;
     }
     .hamburger{
         cursor: pointer;
@@ -882,6 +878,17 @@ form{
     #logo a img{
        width:40%;
     }
+    .hamburger .bar{
+        display: block;
+        width: 22px;
+        margin: 4px auto;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(7px) rotate(45deg);
+    } 
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-7px) rotate(-45deg);
+    } 
 
     /* hero page styling start */
     .hero-content p:nth-child(2){
