@@ -85,9 +85,6 @@
 .team-image #picture{
     mix-blend-mode: darken;  
 }
-#team1 #picture{
-    border-radius:10% ;
-}
 .team-image .team-name{
     margin-top: 10px;
     font-weight: 700;
