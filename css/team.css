@@ -44,30 +44,28 @@
     width: 100%;
     justify-content:center;
     margin-top: 30px;
-    align-items: center;
+    
 }
 .team-line{
     border-top: 2px solid #0000FF;
     margin: 30px 0;
 }
 #team-card2{
-    align-items: center;
     flex-direction: row-reverse;
     
 }
 #team-card2 .team-image{
-    display:flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: end;
+    position: relative;
     margin-right: 0;
     margin-left: 50px;
 }
 
 .team-image{
     margin-right: 50px;
-    text-align: center;
-    position: relative
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    position: relative;
 }
 .team-image a{
     display:flex;
@@ -82,15 +80,14 @@
     right: 0;
 
 }
-.team-image #picture{
-    mix-blend-mode: darken;  
-}
+
 .team-image .team-name{
     margin-top: 10px;
     font-weight: 700;
     font-size: 18px !important;
     line-height: 21px;
     color: #0000FF;
+    text-align:center;
 }
 .team-image .team-post{
     font-weight: 400;
@@ -102,8 +99,9 @@
     width:50%;
 }
 .team-content p{
+    
     font-size: 15px;
-    margin-top: 20px;
+    margin-top: 10px;
     font-weight: 400;
     line-height: 30px;
     color: #000000;
@@ -131,15 +129,14 @@
     .team-image #picture{
         width: 200px;
     }
-    #team1 a {
-        margin-top: 3px;
-    }
     .team-image a{
         padding: 5px;
         width:30px ;
         top:174px;
     }
-
+    #team-card1 a{
+       margin-top: 1.4px;
+    }
     .team-content{
         width:70%;
     }
@@ -154,6 +151,7 @@
     }
     .team-card{
         flex-direction: column;
+        align-items:center;
     }
     #team-card2{
         flex-direction: column;
@@ -161,10 +159,13 @@
     }
     #team-card2 .team-image{
         margin-left: 0;
+        align-items:center;
     }
     .team-image{
+        align-items:center;
         margin-right: 0;
     }
+    
     .team-image .team-name{
         font-size: 1rem !important;
     }
