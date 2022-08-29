@@ -59,7 +59,7 @@ const contactForm = document.getElementById("contactdb-form");
       .then((response) => response.json())
       .then((html) => {
         // you can put any JS code here
-        alert("Thank you for the Messaging us");
+        alert("Thank you for Contacting us");
       });
      contactForm.reset();
   });
