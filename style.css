@@ -517,6 +517,7 @@ form {
 }
 
 .subscribe-form form button {
+    cursor:pointer;
     padding: 10px;
     background: linear-gradient(269.43deg, #FF0000 -14.51%, #0000FF 100%);
     border-radius: 13px;

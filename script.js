@@ -30,3 +30,36 @@ function reveal() {
 window.addEventListener("scroll", reveal);
 
 
+
+const form = document.getElementById("subscribedb-form");
+
+
+
+  form.addEventListener("submit", e => {
+    e.preventDefault();
+    fetch(form.action, {
+      method: "POST",
+      body: new FormData(document.getElementById("subscribedb-form")),
+    })
+      .then((response) => response.json())
+      .then((html) => {
+        // you can put any JS code here
+        alert("Thank you for Signing up! We are looking forward to keep you updated with our latest post and articles");
+      });
+    form.reset();
+  });
+const contactForm = document.getElementById("contactdb-form");
+
+  contactForm.addEventListener("submit", (e) => {
+    e.preventDefault();
+    fetch(contactForm.action, {
+      method: "POST",
+      body: new FormData(document.getElementById("contactdb-form")),
+    })
+      .then((response) => response.json())
+      .then((html) => {
+        // you can put any JS code here
+        alert("Thank you for the Messaging us");
+      });
+     contactForm.reset();
+  });

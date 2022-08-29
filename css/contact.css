@@ -86,6 +86,7 @@
     position: relative;
 }
 .contact form button{
+    cursor:pointer;
     background: linear-gradient(264.62deg, #FFFF00 -22.29%, #FF0000 29.94%, #0000FF 100%);
     border-radius: 10px;
     width: 40%;

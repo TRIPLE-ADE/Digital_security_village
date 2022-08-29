@@ -72,17 +72,17 @@
                     <div class="contact  reveal fade-left" id="contact-form">
                         <p>Get in touch</p>
                         <p>Ask Any Question Here</p>
-                        <form action="" method="post" autocomplete="off">
+                        <form action="https://sheetdb.io/api/v1/8hv9u9y0ckkpc" method="POST" autocomplete="off" id="contactdb-form">
                             <div class="name-input">
-                                <input type="text" name="name" id="name" placeholder="Enter your name">
+                                <input type="text" name="data[name]" id="name" placeholder="Enter your name">
                                 <img src="../images/vector.png" alt="" width="30px">
                             </div>
                             <div class="email-input">
-                                <input type="email" name="email" id="email" placeholder="Enter your email">
+                                <input type="email" name="data[email]" id="email" placeholder="Enter your email">
                                 <img src="../images/Vector1.png" alt="" width="30px">
                             </div>
                             <div class="message-input">
-                                <textarea rows="4" cols="" placeholder="Enter your Message"></textarea>
+                                <textarea rows="4" cols="" name="data[message]" placeholder="Enter your Message"></textarea>
                                 <img src="../images/vector2.png" alt="" width="30px">
                             </div>
                             <button type="submit">Submit</button>
@@ -123,8 +123,8 @@
         <div class="section6">
             <div class="subscribe-form">
                 <p class="reveal fade-left">Subscribe now to get latest information about the bootcamp</p>
-                <form action="" method="post" class="reveal fade-left">
-                    <input type="email" name="email" id="email" placeholder="Please input your email"> <br>
+                <form action="https://sheetdb.io/api/v1/5p3jy5x3n6ude" method="POST" class="reveal fade-left" id="subscribedb-form">
+                    <input type="email" name="data[email]" id="email" placeholder="Please input your email"> <br>
                     <button type="submit">Sign Up</button> <br>
                 </form>
                 <img src="../images/logo.png" alt="" class="reveal fade-right">
