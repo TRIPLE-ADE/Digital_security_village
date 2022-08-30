@@ -37,13 +37,14 @@ const form = document.getElementById("subscribedb-form");
 
   form.addEventListener("submit", e => {
     e.preventDefault();
+    document.querySelector(".subscribe-loader").style.display = "inline";
     fetch(form.action, {
       method: "POST",
       body: new FormData(document.getElementById("subscribedb-form")),
     })
       .then((response) => response.json())
       .then((html) => {
-        // you can put any JS code here
+        document.querySelector(".subscribe-loader").style.display = "none";
         alert("Thank you for Signing up! We are looking forward to keep you updated with our latest post and articles");
       });
     form.reset();
@@ -52,13 +53,14 @@ const contactForm = document.getElementById("contactdb-form");
 
   contactForm.addEventListener("submit", (e) => {
     e.preventDefault();
+    document.querySelector(".preloader").style.display = "flex";
     fetch(contactForm.action, {
       method: "POST",
       body: new FormData(document.getElementById("contactdb-form")),
     })
       .then((response) => response.json())
       .then((html) => {
-        // you can put any JS code here
+        document.querySelector(".preloader").style.display = "none";
         alert("Thank you for Contacting us");
       });
      contactForm.reset();

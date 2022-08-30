@@ -75,15 +75,19 @@
                         <form action="https://sheetdb.io/api/v1/8hv9u9y0ckkpc" method="POST" autocomplete="off" id="contactdb-form">
                             <div class="name-input">
                                 <input type="text" name="data[name]" id="name" placeholder="Enter your name" required>
-                                <img src="./images/vector.png" alt="" width="30px">
+                                <img src="./images/vector.png" alt="" width="30px" class="input-image">
                             </div>
                             <div class="email-input">
                                 <input type="email" name="data[email]" id="email" placeholder="Enter your email" required>
-                                <img src="./images/Vector1.png" alt="" width="30px">
+                                <img src="./images/Vector1.png" alt="" width="30px" class="input-image">
                             </div>
                             <div class="message-input">
                                 <textarea rows="4" cols="" name="data[message]" placeholder="Enter your Message" required></textarea>
-                                <img src="./images/vector2.png" alt="" width="30px">
+                                <img src="./images/vector2.png" alt="" width="30px" class="input-image">
+                            </div>
+                            <div class="preloader">
+                                <img src="./images/loader.svg" alt="">
+                                <p>Loading...</p>
                             </div>
                             <button type="submit">Submit</button>
                         </form>
@@ -124,7 +128,10 @@
             <div class="subscribe-form">
                 <p class="reveal fade-left">Subscribe now to get latest information about the bootcamp</p>
                 <form action="https://sheetdb.io/api/v1/5p3jy5x3n6ude" method="POST" class="reveal fade-left" id="subscribedb-form">
-                    <input type="email" name="data[email]" id="email" placeholder="Please input your email" required> <br>
+                    <div class="subscribe-input">
+                        <input type="email" name="data[email]" id="email" placeholder="Please input your email" required> 
+                        <img src="./images/loader.svg" alt="" class="subscribe-loader">
+                    </div>
                     <button type="submit">Sign Up</button> <br>
                 </form>
                 <img src="./images/logo.png" alt="" class="reveal fade-right">
