@@ -1100,6 +1100,21 @@ form {
 
 /* max width 400px styling start */
 @media (max-width:400px) {
+    /* animation start */
+
+    .reveal{
+    transition:0.5s all ease;
+    }
+    .reveal.active{
+        transition:0.5s all ease;
+    }
+    .active.fade-left{
+        animation: fade-left 0.5s ease-in;
+    }
+    .active.fade-right{
+        animation: fade-right 0.5s ease-in;
+    }
+    /* animation  end*/
     #logo a img {
         width: 40%;
     }
