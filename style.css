@@ -151,7 +151,6 @@ ul li a {
     display: flex;
     justify-content: space-around;
     flex-flow: row wrap;
-    flex-wrap: wrap-reverse;
     padding-top: 200px;
     padding-bottom: 200px;
     width: 100%;
