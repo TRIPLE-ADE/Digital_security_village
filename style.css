@@ -1093,6 +1093,20 @@ form {
         font-size: 0.9rem;
     }
 
+    .linkedin {
+        height: 50px;
+        border: 2px solid rgba(0, 0, 255, 0.9);
+        padding: 13px;
+    }
+    .linkedin img{
+        width:20px;
+    }
+    .twitter {
+        height: 50px;
+        border: 2px solid rgba(255, 0, 0, 0.9);
+        padding: 12px;
+    }
+
     /* footer  styling end */
 }
 
@@ -1287,7 +1301,14 @@ form {
     .left-content, .right-content{
         width:90%;
     }
-
+    .linkedin {
+        height: 47px;
+        padding: 11px;
+    }
+    .twitter {
+        height: 47px;
+        padding: 10px;
+    }
     /* footer  styling end */
 }
 
