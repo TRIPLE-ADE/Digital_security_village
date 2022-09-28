@@ -621,6 +621,10 @@ form {
     nav {
         width: 94%;
     }
+      #nav-links ul li {
+        list-style-type: none;
+        padding-right: 1.8em;
+    }
 
     /* register page styling start */
     .section2-images {
@@ -700,7 +704,7 @@ form {
 
     #nav-links ul li {
         list-style-type: none;
-        padding-right: 1em;
+        padding-right: 0.9em;
     }
 
     ul li a {
