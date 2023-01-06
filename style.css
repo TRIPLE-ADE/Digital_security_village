@@ -1192,6 +1192,8 @@ form {
         display:grid;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(4,1fr);
+        width: 90%;
+        margin: auto;
     }
     .grid1, .grid2, .grid3, .grid4{
         background: #FFFFFF;
