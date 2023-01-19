@@ -13,6 +13,15 @@ document.querySelectorAll('.nav-link').forEach(e => e.addEventListener('click', 
     navMenu.classList.remove('active');
 }));
 
+const accordion = document.querySelectorAll('.faq-content');
+
+accordion.forEach(e => {
+  e.addEventListener('click', function () {
+    this.classList.toggle('active')    
+    })
+})
+
+
 function reveal() {
   let reveals = document.querySelectorAll(".reveal");
   for (let i = 0; i < reveals.length; i++) {
